@@ -3,6 +3,43 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.blog-image {
+    height: 250px;
+}
+.blog-post {
+    display: flex;
+    align-items: center;
+}
+
+.blog-image-container {
+    max-width: 50%; /* Adjust the width of the image container as needed */
+}
+
+
+
+.blog-text {
+    margin-left: 20px; /* Adjust the spacing between the image and text as needed */
+}
+
+/* Adjust other styles as needed */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
 
 html {
     overflow: scroll;
